@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.lef-nav{
+    margin-top: 30px;
+}
+
+.lef-nav ul li{
+    display: inline;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.center-nav{
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+.right-nav{
+    margin-top: 30px;
+}
+.right-nav ul li{
+    display: inline;
+    padding: 0px 20px;
+    cursor:pointer;
+}
+.banner{
+    background-image:url('./images/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner h1{
+    color: rgb(255, 255, 255);
+    
+}
+.banner button{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #2a4835;  
+    color:white;
+}
+.banner button:hover{
+    background-color: #1d3b28;
+    color: white;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    text-align: center;
+}
+.head-seller{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.cards{
+    height: 400px;
+    padding: 10px;
+
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.session{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-container{
+    flex-wrap: wrap;
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-color: #eeeeee;
+}
+.adv-header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item-list-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    text-align: center;
+}
+.items{
+    line-height: 1.6;
+}
+.items h3{
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.items p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.adv-button{
+    text-align: center;
+    margin: 20px;
+}
+.adv-button button{
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    background-color:#2a4835;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.adv-button button:hover{
+    background-color: #002702;
+}
+.story-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+.story-img{
+    width: 500px;
+    margin-top: 30px;
+    padding-right: 200px;
+}
+.story-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.story-content{
+    line-height: 1.6;
+    padding: 30px 0;
+
+}
+.story-content h3{
+    font-weight: 400;
+}
+.story-content span{
+    font-size: 28px;
+    font-weight: 400;
+}
+.story-btn{
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    background-color:#2a4835;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.story-btn:hover{
+    background-color: #002702;
+}
+.brand-container{
+    height: 240px;
+    width: 100%;
+    background-color:#eeeeee;
+    margin-top: 70px;
+}
+.brand-container h1{
+    text-align: center;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.brand-head{
+    align-items: center;
+}
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.image-container img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.final-container a{
+    display: none;
+}
+.final-container{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    line-height: 1.6;
+}
+.final-container h2{
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 250px;
+    background-color: #191919;
+    padding-top: 50px;
+    color: white;
+    line-height: 1.6;
+    flex-wrap: wrap;
+}
+.footer-container h2{
+    color:white;
+    padding-bottom: 10px;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+.copyright span{
+    padding-top: 120px;
+}
+.search-input{
+    padding: 7px 25px;
+    background-color: transparent;
+    border:1px solid white;
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    cursor: pointer;
+}
